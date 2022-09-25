@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!doctype html>
+    <html lang="en">
+        <link rel="icon" href="icon/k.png" type="image/x-icon">
+      <head>
+        <title>GiftCard Trading Site</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      </head>
+      <body>
+          
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+    </html>
+    <title>GiftCard Trading site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="sub-head"> <i class="fas fa-stopwatch"></i> The place where you can buy and sell Giftcards<span></span></div>
+
+        <div class="main-head">
+            <div class="for-logo">
+                <div>
+                    <h3 class="logo-text">K<span class="red-text accent-4">ADAMBAS</span></h3>
+                    <span class="moto">Best Online Giftcards Trading Website</span>
+                </div>
+            </div>
+
+            <div class="for-contact">
+                <div class="email">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <div>
+                        <h5 class="email"><b>Email Us
+                        </b></span></h5>
+                        <span>kadambas291102@gmail.com</span>
+                    </div>
+                </div>
+            
+                <div class="call-us">
+                    <i class="fas fa-phone-alt fa-2x"></i>
+                    <div>
+                        <h5 class="call"><b>
+                        Call Us
+                        </b></span></h5>
+                        <span>+91 914 899 9742</span>
+                    </div>
+                </div>
+
+            </div>    
+
+            <div>
+                <button class="getStarted_btn">Get Started <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+        </div> 
+    </header>
+    <main>
+        <section class="advert">
+            <div class="navigation">
+                <ul class="deep-orange ">
+                    <li><a href="" class="home">HOME</a></li>
+                    <li><a href="#trade">TRADE NOW</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#trade">SERVICES</a></li>
+                    <li><a href="payment.html">PAYMENTS</a></li>
+                    <li><a href="https://gadgets360.com/" target="_blank">NEWS</a></li>
+                </ul>
+            
+        </section>
+
+        <section id="trade">
+            <template id="trade-list-template">
+                <div data-card>
+                    <i data-icon></i>
+                    <h5 data-product-name>Product Name</h5>
+                    <div class="divider"></div>
+                    <span data-details>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.</span>
+                    <button class="btn-floating btn-large activator orange accent-4 reveal_info"><i class="material-icons">unfold_more</i></button>
+                    <div class="card-reveal">
+                        <span class="card-title"><i class="material-icons">unfold_more</i></span>
+                        <i data-icon2></i>
+                        <h6 class="text-flow">RATE</h6>
+                        <div class="rate_board">
+                           <div data-sell>
+                                <span>Selling Rate:</span>
+                                <span class="selling_rate">450</span>
+                            </div>
+                            <div data-buy>
+                                <span>Buying Rate:</span>
+                                <span class="buying_rate">300</span>
+                            </div>
+                            <div>
+                                <span>Quantity:</span>
+                                <span class="quantity">000000.1</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn green buy_now">BUY</button>
+                            <button class="btn sell_now">SELL</button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </section>
+    </main>
+
+    <section id="about">
+        <div>
+            <h5 class="faq-label">FREQUENTLY <span>ASKEDQUESTIONS</span></h5>
+            <img class="customer-care-img" src="./images/faq.png" alt="">
+        </div>
+        <div id="faq">
+            <div class="questions">
+                <ul class="collapsible popout m-0" data-questions-list>
+                    <template id="qestion-list-template">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons ">question_answer</i><span data-question>question</span></div>
+                            <div class="collapsible-body"><span data-answer>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                    </template>    
+                </ul> 
+            </div>
+        </div>
+
+        
+    </section>
+
+
+    <footer>
+        <div class="ft-one">
+            <div class="social_link">
+                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" class="twitter"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+            <h4 class="company_logo">KADAMBAS</h4>
+            <div>
+                <i class="fab fa-cc-paypal fa-3x"></i>
+                <i class="fab fa-cc-visa fa-3x"></i>
+                <i class="fab fa-cc-mastercard fa-3x"></i>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="contact-foot">
+            <div class="email">
+                <i class="fas fa-mail-bulk"></i>
+                <h6>MAIL</h6>
+                <span>kadambas291102@gmail.com</span>
+            </div>
+            <div class="email">
+                <i class="fas fa-phone-alt"></i>
+                <h6>CALL</h6>
+                <span>+91 914 899 9742</span>
+            </div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <h6>FIND US</h6>
+                <span>Facebook,Instagram,Twitter</span>
+            </div>
+        </div>
+        
+        
+    </footer>
+</body>
+</html>

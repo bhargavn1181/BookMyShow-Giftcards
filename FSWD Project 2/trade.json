@@ -1,0 +1,99 @@
+[
+    {
+        "name": "<b>BookMyShow</b>",
+        "details": "BookMyShow GiftCard is a new way of gifting Movies,Plays,etc. to your loved ones.",
+        "tag": "BookMyShow",
+        "fs": "",
+        "icon": "./icon/bms12.png",
+       
+        "selling_rate": "400Rs",
+        "buying rate": "450Rs"
+    },
+    {
+        "name": "<b>NetFlix</b>",
+        "details": "NetFlix GiftCards can be used to pay for NetFlix subscription or to give as a gift.",
+        "tag": "Netflix",
+        "fs": "",
+        "icon": "./icon/Netflix.png",
+       
+        "selling_rate": "400Rs",
+        "buying rate": "500Rs"
+    },
+    {
+        "name": "<b>Amazon</b>",
+ 
+        "details": "Amazon GiftCards can be used for purchasing itrms and digital downloads. To be exact you can download Amazon videos,Kindle books and amazon Music with them .",
+        "tag": "Amazon",
+        "fs": "",
+        "icon": "./icon/amzn.png",
+      
+        "selling_rate": "1000Rs",
+        "buying rate": "1100Rs"
+    },
+    {
+        "name": "<b>Spotify</b>",
+   
+        "details": "Spotify giftcards can only be redeemed for premium individual plans.You can't use them for Premium student,Premium Family others.",
+        "tag": "Spotify",
+        "fs": "",
+        "icon": "./icon/Spotify.png",
+       
+        "selling_rate": "550Rs",
+        "buying rate": "650RS"
+    },
+    {
+        "name": "<b>Meesho</b>",
+    
+        "details": "Meeshow Giftcards are used for discount offers to the items purchased in it.",
+        "tag": "Meesho",
+        "fs": "",
+        "icon": "./icon/meesho.png",
+       
+        "selling_rate": "800Rs",
+        "buying rate": "950RS"
+    },
+    {
+        "name": "<b>Flipkart</b>",
+     
+        "details": "Flipkart GiftCards can be used to redeem the offers for products to be purchasedin that site.",
+        "tag": "Flipkart",
+        "fs": "",
+        "icon": "./icon/flipkart.jpg",
+       
+        "selling_rate": "2000Rs",
+        "buying rate": "220RS"
+    },
+    {
+        "name": "<b>Google Play</b>",
+        
+        "details": "Google Play GiftCards can be used to redeem the offer for movies,games,apps etc",
+        "tag": "Google Play",
+        "fs": "",
+        "icon": "./icon/googleplay.png",
+       
+        "selling_rate": "1500Rs",
+        "buying rate": "1650Rs"
+    },
+    {
+        "name": "<b>Disney + Hotsar</b>",
+        
+        "details": "Disney + Hotstar GiftCards can be used to avail offers in subscription of plans.",
+        "tag": "Disney+Hotsar",
+        "fs": "",
+        "icon": "./icon/dsnp.png",
+       
+        "selling_rate": "399Rs",
+        "buying rate": "499Rs"
+    },
+    {
+        "name": "<b>PayTM</b>",
+       
+        "details": "PayTM GiftCards can be used to for money transactions.",
+        "tag": "transfer-token",
+        "fs": "",
+        "icon": "./icon/ptm.png",
+        
+        "selling_rate": "599Rs",
+        "buying rate": "649Rs"
+    }
+]
